@@ -114,5 +114,21 @@ transition: transform 1s ease;
     object-fit: cover;
     border-radius: 10px;
 }
+.product-card h3{
+    margin: 15px 0 10px 0;
+    font-size: 1.2rem;
+    color: #1e1e2f;
+
+}
+.product-card p{
+    font-size: 0.95rem;
+    color: #555;
+    text-align: justify;
+}
+/* virtual section */
+.virtual{
+    padding: 60px 20px;
+    background: linear-gradient(135deg, rgb(152, 168, 169),rgb(33, 33, 38)  );
+}
 
 
