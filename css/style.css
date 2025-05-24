@@ -128,7 +128,71 @@ transition: transform 1s ease;
 /* virtual section */
 .virtual{
     padding: 60px 20px;
-    background: linear-gradient(135deg, rgb(152, 168, 169),rgb(33, 33, 38)  );
+    background: linear-gradient(135deg, rgb(85, 112, 114),rgb(135, 135, 171)  );
+    text-align: center;
+
+}
+.virtual h1{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #4a4a4a;
+    position: relative;
+    display: inline-block;
+    
+}
+.virtual h1::after{
+    content: '';
+    width: 50%;
+    height: 3px;
+    background-color: #1e1e2f;
+    position: absolute;
+    bottom: -10px;
+    left: 25%;
+
+
+}
+.virtual div iframe{
+    width: 80%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0.2);
+    transition: transform 0.3s ease;
+
+}
+section div iframe:hover{
+    transform: scale(1.02);
+}
+/* .footer div{
+    text-align: left;
+    background: #000;
+    
+
+} */
+/* footer div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+    
+} */
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
 }
 
+/* i{
+    color: red;
+    font-size: 20px;
+} */
+
+.icons{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
 
