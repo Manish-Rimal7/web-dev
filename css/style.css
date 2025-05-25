@@ -181,6 +181,8 @@ section div iframe:hover{
 
 
 footer{
+    padding-top: 3%;
+    background-color: #f6f6f9;
     display: flex;
     justify-content: space-around;
 }
