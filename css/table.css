@@ -48,10 +48,20 @@ button:hover{
     opacity: 0.8;
 }
 button:first-child{
-    background-color: #3e3189;
+    background-color: #547da1;
     color: #fff;
 }
 button:last-child{
-    background-color: #e74c3c;
+    background-color: #7f826e;
     color: #fff;
+}   
+.pro-image{
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+    object-fit: cover;
+    border: 3px solid #3498db;
+}
+tr td:first-child{
+    font-weight: bold;
 }
